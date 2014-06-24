@@ -30,7 +30,7 @@ This project sends data to specific 'dataports' for your virtual cloud device re
 
 1. Install the TivaWare™ software along with Code Composer.  Build the 'senshub_iot' project and flash your board.
 	![image](doc_images/code_composer.png)
-2. **_OR_** Included with this project is a binary image that was pre-built.  Use TI's LM Flash Programmer tool to flash this binary to your Connected LaunchPad.  
+2. **_OR_** Included with this project is a binary image (**senshub_iot.bin**) that was pre-built.  Use TI's LM Flash Programmer tool to flash this binary to your Connected LaunchPad.  
 	![image](doc_images/lm_flash_programmer.png)
 3. If you have not already, create an account on ti.exosite.com and add your Connected LaunchPad using 'Add Device'.  
 [Getting started with Connected LaunchPad ](https://support.exosite.com/hc/en-us/articles/200778084-EK-TM4C1294XL-Connected-LaunchPad)  
