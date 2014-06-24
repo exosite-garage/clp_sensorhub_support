@@ -15,6 +15,17 @@ One of these is the Sensor Hub: [http://www.ti.com/tool/boostxl-senshub](http://
 Texas Instruments provides driver support for this board in the [TivaWare™ for C Series Driver Library](http://www.ti.com/tool/sw-tm4c-drl) and includes a project to build that will work on the Conencted LaunchPad and will send data from these sensors to Exosite.  The project is called **'senshub_iot'** and uses FreeRTOS.
 
 This project sends data to specific 'dataports' for your virtual cloud device representing your Connected LaunchPad as JSON formated data.  To make this easier for users to try out, Exosite has created a number of Lua scripts that can be added to your cloud device instance that will create the appropriate dataports and handle incoming data which must be parsed (JSON format) and individually place into specific dataports.
+Here is a table for the Exosite client dataports that the senshub_iot project application uses.
+
+| Friendly Name          | Type   | Alias          |
+|------------------------|--------|----------------|
+| BMP180 Data            | string | bmp180_json    |
+| Complimentary DCM Data | string | compdcm_json   |
+| ISL29023 Data          | string | isl29023_json  |
+| SHT21 Data             | string | sht21_json     |
+| TMP006 Data            | string | tmp006_json    |
+| Task Statistics        | string | taskstats_json |
+
 
 ## Lua Scripts
 
