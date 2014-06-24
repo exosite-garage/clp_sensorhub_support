@@ -28,7 +28,7 @@ This project sends data to specific 'dataports' for your virtual cloud device re
 ###How to use
 
 
-1. Install the TivaWare™ software along with Code Composer.  Build the 'senshub_iot' project and flash your board.
+1. Install the TivaWare™ software along with Code Composer.  Build the 'senshub_iot' project and flash your board.  
 	![image](doc_images/code_composer.png)
 2. **_OR_** Included with this project is a binary image (**senshub_iot.bin**) that was pre-built.  Use TI's LM Flash Programmer tool to flash this binary to your Connected LaunchPad.  
 	![image](doc_images/lm_flash_programmer.png)
